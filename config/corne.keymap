@@ -98,10 +98,10 @@
             //                            | GUI |     |  SPC  |   | ENT |     | ALT |
 
             bindings = <
-&kp TILDE  &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp N7  &kp N8  &kp N9  &kp MINUS  &kp BSPC
-&kp TAB    &rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp N4  &kp N5  &kp N6  &kp EQUAL  &kp GRAVE
-&kp LSHFT  &rgb_ug RGB_EFF  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp N1  &kp N2  &kp N3  &trans     &kp TILDE
-                                             &trans           &trans           &kp TAB                 &trans                 &trans  &trans
+&kp TILDE   &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp N7  &kp N8  &kp N9  &kp MINUS  &kp BSPC
+&bt BT_CLR  &rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp N4  &kp N5  &kp N6  &kp EQUAL  &kp GRAVE
+&kp LSHFT   &rgb_ug RGB_EFF  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp N1  &kp N2  &kp N3  &trans     &kp TILDE
+                                              &trans           &trans           &kp TAB                 &trans                 &trans  &trans
             >;
         };
 
